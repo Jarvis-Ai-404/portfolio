@@ -322,32 +322,6 @@ img{
 .skills__img{
   border-radius: .5rem;
 }
-/* ===== SERVICES =====*/
-.services__container{
-  row-gap: 2rem;
-}
-.services__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-.services__img img{
-  cursor: pointer;
-  margin-top: 5px;  
-  padding: 5px;
-}
-.services__img h2{
-  font-size: 25px;
-  padding: 10px;
-  color: var(--first-color);
-}
-.services__img p{
-
-  padding: 10px;
-  font-size: 15px; 
-  text-align: justify;
-}
-
 
 /* ===== WORK =====*/
 .work__container{
@@ -470,11 +444,6 @@ img{
   }
   .about__img img{
     width: 300px;
-  }
-  .services__container{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    column-gap: 2rem;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
